@@ -10,6 +10,7 @@ public class Solution {
     }
 
     public static int getMetreFromCentimetre(int centimetre) {
-        //напишите тут ваш код
+        int metr = centimetre / 100;
+        return metr;
     }
 }
