@@ -16,9 +16,9 @@ public class Solution {
         int sideC = sc.nextInt();
 
         if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {
-            System.out.println("Такой треугольник существует");
+            System.out.println("Такой треугольник существует.");
         } else {
-            System.out.println("Такой треугольник не существует");
+            System.out.println("Такой треугольник не существует.");
         }
     }
 }
