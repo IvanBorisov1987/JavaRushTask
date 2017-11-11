@@ -16,7 +16,7 @@ public class Solution {
             System.out.println(3);
         } if (a > 0 && b < 0) {
             System.out.println(4);
-        } 
+        }
 
     }
 }
