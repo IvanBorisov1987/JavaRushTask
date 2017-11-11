@@ -1,7 +1,7 @@
-package com.javarush.task.task04.task0422;
+package com.javarush.task.task04.task0423;
 
 /* 
-18+
+Фейс-контроль
 */
 
 import java.io.*;
@@ -15,8 +15,8 @@ public class Solution {
         String name = reader.readLine();
         int age = sc.nextInt();
 
-        if (age < 18){
-            System.out.println("Подрасти еще");
+        if (age > 20){
+            System.out.println("И 18-ти достаточно");
         }
     }
 }
