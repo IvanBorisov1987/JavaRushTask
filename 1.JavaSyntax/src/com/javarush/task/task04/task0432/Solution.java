@@ -7,10 +7,20 @@ package com.javarush.task.task04.task0432;
 */
 
 import java.io.*;
+import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        Scanner sc = new Scanner(System.in);
+        Scanner sc1 = new Scanner(System.in);
+
+        String ne = sc1.nextLine();
+        int n = sc.nextInt();
+
+        while (n > 0) {
+            System.out.println(ne);
+            n--;
+        }
 
     }
 }
