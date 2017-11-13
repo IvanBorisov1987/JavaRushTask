@@ -9,7 +9,19 @@ import java.io.*;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        String name = "S";
+        int i=0;
+        int j = 0;
+
+        while (i<10) {
+            while (j<10) {
+                System.out.print(name);
+                j++;
+            }
+            System.out.println("");
+            j = 0;
+            i++;
+        }//напишите тут ваш код
 
     }
 }
