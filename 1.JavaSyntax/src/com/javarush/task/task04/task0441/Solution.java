@@ -15,9 +15,14 @@ public class Solution {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        if (a > b || b > c)
-            System.out.println(b);
-        if (a < b || b < c ||)
-            System.out.println(sc);
+        System.out.println((a+b+c)-max(max(a, b), c) - min(min(a, b), c));
+    }
+    static int max(int a, int b){
+        if (a>=b) return a;
+        else return b;
+    }
+    static int min(int a, int b){
+        if (a<=b) return a;
+        else return b;//напишите тут ваш код
     }
 }
