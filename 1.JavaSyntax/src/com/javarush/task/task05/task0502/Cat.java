@@ -13,9 +13,9 @@ public class Cat {
     public Cat() {
     }
 
-    public boolean fight(Cat anotherCat) {
+    /*public boolean fight(Cat anotherCat) {
         //напишите тут ваш код
-    }
+    } */
 
     public static void main(String[] args) {
 
