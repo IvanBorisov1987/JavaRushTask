@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
-
+         Scanner scanner = new Scanner(System.in);
+        /*
         double sum = 0;
         double count = 0;
 
@@ -25,6 +25,22 @@ public class Solution {
                 System.out.print(sum/count);
                 break;
             }
+        } */
+
+        double sum = 0;
+        double count = 0;
+
+        while (true) {
+            double a = scanner.nextDouble();
+            if (a != -1) {
+                sum += a;
+                count ++;
+            } else {
+                System.out.println(sum/count);
+                break;
+            }
         }
     }
 }
+
+
