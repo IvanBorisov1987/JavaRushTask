@@ -13,9 +13,9 @@ public class Cat {
     public Cat() {
     }
 
-    /*public boolean fight(Cat anotherCat) {
-        //напишите тут ваш код
-    } */
+    public boolean fight(Cat anotherCat) {
+        return (this.strength>anotherCat.strength) ? true : false;
+    }
 
     public static void main(String[] args) {
 
