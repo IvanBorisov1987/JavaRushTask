@@ -10,7 +10,11 @@ public class Solution {
         Cat cat2 = new Cat("Petr",2,13,30);
         Cat cat3 = new Cat("Boris", 4,15,35);
 
-        System.out.println();
+
+        System.out.println("Победил Vaska? - " + cat1.fight(cat2));
+        System.out.println("Победил Petr? - " + cat2.fight(cat3));
+        System.out.println("Победил Boris? - " + cat3.fight(cat1));
+
     }
 
     public static class Cat {
