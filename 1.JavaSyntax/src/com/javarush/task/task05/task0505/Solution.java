@@ -6,7 +6,11 @@ package com.javarush.task.task05.task0505;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        Cat cat1 = new Cat("Vaska",3,12,32);
+        Cat cat2 = new Cat("Petr",2,13,30);
+        Cat cat3 = new Cat("Boris", 4,15,35);
+
+        System.out.println();
     }
 
     public static class Cat {
