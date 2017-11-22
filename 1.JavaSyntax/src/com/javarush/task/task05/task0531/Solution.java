@@ -18,22 +18,22 @@ public class Solution {
         int e = Integer.parseInt(reader.readLine());
 
 
-        int minimum = min(a, b, c, d, e);
+        int minimum = minim(a, b, c, d, e);
 
         System.out.println("Minimum = " + minimum);
     }
 
 
-    public static int min(int a, int b, int c, int d, int e) {
-        int m = a;
-        if (b < m)
-            m = b;
-        if (c < m)
-            m = c;
-        if (d < m)
-            m = d;
-        if (e < m)
-            m = e;
-        return m;
+    public static int minim(int a, int b, int c, int d, int e) {
+        int min = a;
+        if (b < min)
+            min = b;
+        if (c < min)
+            min = c;
+        if (d < min)
+            min = d;
+        if (e < min)
+            min = e;
+        return min;
     }
 }
