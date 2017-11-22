@@ -8,11 +8,9 @@ import java.io.*;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        BufferedReader reader1 = new BufferedReader(new InputStreamReader(System.in));
-        BufferedReader reader2 = new BufferedReader(new InputStreamReader(System.in));
-
-        int a = reader1.read();
-        int b = reader2.read();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int a = reader.read();
+        int b = reader.read();
 
         int sum = a + b;
         System.out.println("Sum = " + sum);
