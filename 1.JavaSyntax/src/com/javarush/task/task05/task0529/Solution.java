@@ -10,9 +10,19 @@ import java.io.InputStreamReader;
 public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
-        String summ;
-        int count = 0;
 
-
+        boolean numbers = false;
+        int sum = 0;
+        while(!numbers){
+            String line = buffer.readLine();
+            if (line.equals("сумма"))
+                numbers = true;
+            else {
+                int num = Integer.parseInt(line);
+                sum += num;
+            }
+        }
+        System.out.println(sum);
     }
+
 }
