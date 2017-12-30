@@ -1,9 +1,5 @@
 package com.javarush.task.task06.task0608;
 
-/* 
-Статические методы для кошек
-*/
-
 public class Cat {
     private static int catCount = 0;
 
@@ -12,12 +8,12 @@ public class Cat {
     }
 
     public static int getCatCount() {
-        //напишите тут ваш код
-
+        Cat.catCount = catCount;
+        return catCount;
     }
 
     public static void setCatCount(int catCount) {
-        //напишите тут ваш код
+        Cat.catCount = catCount;
 
     }
 
@@ -25,3 +21,6 @@ public class Cat {
 
     }
 }
+/*
+2. Метод getCatCount должен возвращать int.
+*/
