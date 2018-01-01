@@ -10,19 +10,17 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        String max = "Max is ";
+        String maxi = "Max is ";
         int a = Integer.parseInt(reader.readLine());
         int b = Integer.parseInt(reader.readLine());
         max = a > b ? a : b;
 
-        System.out.println(max + max);
+        System.out.println(maxi + max);
     }
 }
 /*
-*
-* Исправляем ошибки юности
+Исправляем ошибки юности
 Задача: Программа вводит два числа с клавиатуры и выводит их максимум в виде "Max is 25".
-
 Требования:
 1. Программа должна считывать данные с клавиатуры.
 2. Программа должна выводить результат на экран.
