@@ -12,23 +12,26 @@ public class Solution {
     }
 
     public static int[] initializeArray() throws IOException {
-        // создай и заполни массив
-        return null;
+        BufferedReader count = new BufferedReader(new InputStreamReader(System.in)); // ввод числа с консоли
+        int[] array = new int[20];// создаем массив на 20 элементов который заполняем
+
+        for (int i = 0; i < array.length; i++)   // заполнение массива числами с консоли
+        {
+            String s = count.readLine();
+            array[i] = Integer.parseInt(s);
+        }
+        return array;
     }
 
     public static int max(int[] array) {
-        // найди максимальное значение
-        return 0;
+
+        int max = array[0];
+        for (int i = 1; i < array.length; i++)
+        {
+             if (array[i] > max)
+                  max = array[i];
+        }
+
+        return max;
     }
 }
-
-/*
-1. В методе initializeArray():
-1.1. Создайте массив на 20 чисел
-1.2. Считайте с консоли 20 чисел и заполните ими массив
-2. Метод max(int[] array) должен находить максимальное число из элементов массива
-Требования:
-1. Метод initializeArray должен создавать массив из 20 целых чисел.
-2. Метод initializeArray должен считать 20 чисел и вернуть их в виде массива.
-3. Метод max должен возвращать максимальный элемент из переданного массива.
-4. Метод main изменять нельзя.*/
