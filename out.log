@@ -2398,3 +2398,184 @@ java.lang.NullPointerException
 2018-01-02 22:53:23 ERROR ComponentManager.logErrorHeader(146) - VM: OpenJDK 64-Bit Server VM
 2018-01-02 22:53:23 ERROR ComponentManager.logErrorHeader(147) - Vendor: JetBrains s.r.o
 2018-01-02 22:53:23 ERROR ComponentManager.logErrorHeader(148) - OS: Mac OS X
+2018-01-10 15:37:06 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-01-10 15:37:06 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-01-10 15:37:06 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-01-10 15:37:07 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-10 15:37:07 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-10 15:37:07 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-01-10 15:37:07 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-01-10 15:37:07 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-01-10 15:37:08 INFO  ApacheHttpClient.login(213) - responseCode200
+2018-01-10 15:37:08 INFO  ApacheHttpClient.login(244) - JSESSIONID=A638D16740131FFAD0FB90AB4F8C8CBC
+2018-01-10 15:37:08 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-01-10 15:37:08 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-01-10 15:37:08 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-01-10 15:37:08 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-01-10 15:37:11 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-10 15:37:11 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-10 15:37:11 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-10 15:37:11 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-10 15:37:12 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-10 15:38:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:38:37 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-10 15:38:37 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-10 15:38:38 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-10 15:38:38 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-10 15:38:40 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-10 15:38:40 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-10 15:39:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:40:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:41:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:42:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:43:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:44:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:45:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:46:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:47:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:48:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:49:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:50:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:51:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:52:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:53:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:54:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:55:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:56:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:57:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:58:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 15:59:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 16:00:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 16:01:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 16:02:09 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 16:03:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 16:04:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 16:05:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 16:06:08 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-10 16:06:53 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-01-10 16:06:53 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-10 16:06:54 ERROR ComponentManager.error(130) - null
+java.lang.NullPointerException
+	at com.maddyhome.idea.vim.EventFacade.getTypedAction(EventFacade.java:125)
+	at com.maddyhome.idea.vim.EventFacade.restoreTypedActionHandler(EventFacade.java:69)
+	at com.maddyhome.idea.vim.VimPlugin.disposeComponent(VimPlugin.java:183)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.disposeComponents(ComponentManagerImpl.java:150)
+	at com.intellij.openapi.application.impl.ApplicationImpl.dispose(ApplicationImpl.java:495)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:48)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:44)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:138)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:107)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:167)
+	at com.intellij.openapi.util.objectTree.ObjectNode.execute(ObjectNode.java:107)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeAll(ObjectTree.java:142)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:129)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:125)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$disposeSelf$7(ApplicationImpl.java:254)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1003)
+	at com.intellij.openapi.application.impl.ApplicationImpl.disposeSelf(ApplicationImpl.java:254)
+	at com.intellij.openapi.application.impl.ApplicationImpl.doExit(ApplicationImpl.java:782)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:758)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:747)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:724)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:719)
+	at com.intellij.ide.actions.ExitAction.perform(ExitAction.java:35)
+	at com.intellij.ide.MacOSApplicationProvider$Worker.lambda$submit$6(MacOSApplicationProvider.java:212)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:88)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$pollQueueLater$0(TransactionGuardImpl.java:74)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-01-10 16:06:54 ERROR ComponentManager.logErrorHeader(138) - IntelliJ IDEA 2017.3.2  Build #IC-173.4127.27
+2018-01-10 16:06:54 ERROR ComponentManager.logErrorHeader(145) - JDK: 1.8.0_152-release
+2018-01-10 16:06:54 ERROR ComponentManager.logErrorHeader(146) - VM: OpenJDK 64-Bit Server VM
+2018-01-10 16:06:54 ERROR ComponentManager.logErrorHeader(147) - Vendor: JetBrains s.r.o
+2018-01-10 16:06:54 ERROR ComponentManager.logErrorHeader(148) - OS: Mac OS X
+2018-01-14 23:42:31 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-01-14 23:42:31 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-01-14 23:42:31 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-01-14 23:42:32 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-14 23:42:32 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-14 23:42:32 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-01-14 23:42:32 INFO  ApacheHttpClient.login(213) - responseCode200
+2018-01-14 23:42:32 INFO  ApacheHttpClient.login(244) - JSESSIONID=A0A3496422E938C8685C165C82E9D912
+2018-01-14 23:42:32 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-01-14 23:42:32 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-01-14 23:42:33 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-01-14 23:42:33 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-01-14 23:42:36 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-14 23:42:36 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-14 23:42:36 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-14 23:42:36 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-14 23:42:37 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-14 23:42:45 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-14 23:42:45 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-14 23:42:46 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-14 23:42:46 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-14 23:42:47 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-14 23:42:47 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-14 23:43:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:44:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:45:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:46:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:47:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:48:18 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-14 23:48:18 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-14 23:48:27 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-14 23:48:28 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-14 23:48:28 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-14 23:48:28 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-14 23:48:28 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-14 23:48:29 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-14 23:48:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:49:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:50:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:51:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:52:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:53:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:54:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:55:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:56:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:57:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:58:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-14 23:59:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:00:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:01:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:02:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:03:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:04:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:05:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:06:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:07:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:08:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:09:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:10:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:11:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:12:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:13:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:14:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:15:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:16:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:17:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:18:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:19:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:20:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-15 00:21:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
