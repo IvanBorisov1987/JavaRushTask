@@ -17,6 +17,8 @@ import java.util.ArrayList;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //
+        String a = "Трали Вали";//
+        a = a + " Тили вили";  //конкатенация
+        System.out.println(a);
     }
 }
