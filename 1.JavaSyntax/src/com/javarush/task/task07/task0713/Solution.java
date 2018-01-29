@@ -36,6 +36,11 @@ public class Solution {
             if (in % 3 != 0 && in % 2 != 0) //если челочисленное значение не соответствует первым двум требованиям добавляем в 3 массив
                 other.add(in);
         }
+
+
+        printList(div_by3);
+        printList(div_by2);
+        printList(other);
     }
 
     public static void printList(List<Integer> list) {
