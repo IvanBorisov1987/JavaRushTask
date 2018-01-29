@@ -8255,3 +8255,5 @@ java.lang.NullPointerException
 2018-01-29 15:06:17 INFO  ApacheHttpClient.completed(27) - responseCode = 200
 2018-01-29 15:06:42 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
 2018-01-29 15:07:42 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-29 15:08:42 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-29 15:09:42 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
