@@ -24,7 +24,7 @@ public class Solution {
         /* -- Инициализируем список строк в массив -- */
         for (int i = 0; i < 5; i++) {
             strings.add(reader.readLine());
-            
+
             /* -- Поиск самой длинный строки циклом -- */
             if (strings.get(i).length() > max) {
                 max = strings.get(i).length();
