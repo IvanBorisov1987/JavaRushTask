@@ -10462,3 +10462,7 @@ java.lang.NullPointerException
 2018-02-03 09:25:55 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
 2018-02-03 09:25:55 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
 2018-02-03 09:25:55 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-03 09:26:55 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-03 09:26:55 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-03 09:27:55 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-03 09:27:55 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
