@@ -1,16 +1,18 @@
 package com.javarush.task.task07.task0724;
-
-/* 
+/*
 Семейная перепись
 */
-
 public class Solution {
-    public static void main(String[] args) {
+
+    public static void main(String[] args)
+    {
         //Human()
         //напишите тут ваш код
     }
 
-    public static class Human {
+
+    /*
+    * public static class Human {
         //напишите тут ваш код
 
         public String toString() {
@@ -28,6 +30,8 @@ public class Solution {
             return text;
         }
     }
+    * */
+
 }
 
 
