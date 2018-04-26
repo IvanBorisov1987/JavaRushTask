@@ -11,33 +11,31 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String grandFatherName = reader.readLine();
-        Cat catGrandFather = new Cat(grandFatherName);
+        Cat catGrandFather = new Cat(grandFatherName, null, null);
 
         String grandMotherName = reader.readLine();
-        Cat catGrandMother = new Cat(grandMotherName);
+        Cat catGrandMother = new Cat(grandMotherName, null, null);
 
 
         String fatherName = reader.readLine();
-        Cat catFather = new Cat(fatherName);
+        Cat catFather = new Cat(fatherName, null, catGrandFather);
 
         String motherName = reader.readLine();
-        Cat catMother = new Cat(motherName);
+        Cat catMother = new Cat(motherName, catGrandMother, null);
 
 
         String daughterName = reader.readLine();
         Cat catDaughter = new Cat(daughterName, catMother, catFather);
 
         String sonName = reader.readLine();
-        Cat catSon = new Cat(sonName);
+        Cat catSon = new Cat(sonName, catMother, catFather);
 
         System.out.println(catGrandFather);
         System.out.println(catGrandMother);
         System.out.println(catFather);
         System.out.println(catMother);
-        System.out.println(catDaughter);
         System.out.println(catSon);
-
-
+        System.out.println(catDaughter);
     }
 
     public static class Cat {
@@ -57,10 +55,14 @@ public class Solution {
 
         @Override
         public String toString() {
-            if (parent == null)
-                return "Cat name is " + name + ", no mother ";
+            if (parentMother == null && parentFather == null)
+                return "Cat name is " + name + ", no mother, no father";
+            else if (parentFather == null)
+                return "Cat name is " + name + ", no father, mother is " + parentMother.name;
+            else if (parentMother == null)
+                return "Cat name is " + name + ", no mother, father is " + parentFather.name;
             else
-                return "Cat name is " + name + ", mother is " + parent.name;
+                return "Cat name is " + name + ", mother is " + parentMother.name + ", father is " + parentFather.name;
         }
     }
 }
