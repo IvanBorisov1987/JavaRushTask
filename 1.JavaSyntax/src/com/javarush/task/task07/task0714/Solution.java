@@ -16,7 +16,7 @@ public class Solution {
             strings.add(s);
         }
         //3. Удали третий элемент массива.
-        strings.remove(3);
+        strings.remove(2);
         // 4. Выведи элементы на экран, каждый с новой строки.
         // 5. Порядок вывода должен быть обратный.
         for (int i = 0; i < strings.size(); i++)
