@@ -11,18 +11,18 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         String[] cats = new String[]{"васька", "мурка", "дымка", "рыжик", "серый", "снежок", "босс", "борис", "визя", "гарфи"};
 
-        HashMap<String, Cat> map = addCatsToMap(cats);
+        //HashMap<String, Cat> map = addCatsToMap(cats);
 
-        for (Map.Entry<String, Cat> pair : map.entrySet()) {
-            System.out.println(pair.getKey() + " - " + pair.getValue());
-        }
+        //for (Map.Entry<String, Cat> pair : map.entrySet()) {
+          //  System.out.println(pair.getKey() + " - " + pair.getValue());
+        //}
     }
 
 
-    public static HashMap<String, Cat> addCatsToMap(String[] cats) {
-        //напишите тут ваш код
-
-    }
+//    public static HashMap<String, Cat> addCatsToMap(String[] cats) {
+        //Map<String, String> map = new HashMap<String, String>();
+        //catsMap.put(cats[i], new Cat(cats[i]));
+  //  }
 
 
     public static class Cat {
