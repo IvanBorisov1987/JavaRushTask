@@ -4,3 +4,4 @@
 *.log
 *.properties
 /out.log.1
+/out
