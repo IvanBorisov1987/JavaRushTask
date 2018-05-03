@@ -15,31 +15,16 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        // было
-        /*
-        * while (true) {
-            String name = reader.readLine();
-
-            if (name.isEmpty()) break;
-
-            Cat cat = new Cat(name);
-            CATS.add(cat);
-        }*/
-        // стало
         while (true) {
             String name = reader.readLine();
-            if (name.isEmpty())
-                break;
-            String age = reader.readLine();
-            if (age.isEmpty())
-                break;
-            String weight = reader.readLine();
-            if (weight.isEmpty())
-                break;
-            String tailLength = reader.readLine();
-            if (tailLength.isEmpty())
-                break;
-            Cat cat = new Cat(name, Integer.parseInt(age), Integer.parseInt(age), Integer.parseInt(age));
+            if (name.isEmpty()) break;
+            int age = Integer.parseInt(reader.readLine());
+            //if (age.isEmpty()) break;
+            int weight = Integer.parseInt(reader.readLine());
+            //if (weight.isEmpty()) break;
+            int tailLength = Integer.parseInt(reader.readLine());
+            //if (tailLength.isEmpty()) break;
+            Cat cat = new Cat(name, age, weight, tailLength);
             CATS.add(cat);
         }
 
@@ -71,5 +56,3 @@ public class Solution {
         }
     }
 }
-
-
