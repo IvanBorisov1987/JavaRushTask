@@ -4,25 +4,25 @@ import java.util.HashMap;
 import java.util.Map;
 
 /* 
-Коллекция HashMap из котов
+Коллекция HashMap из котов - ПОКА Я ХЗ КАК РЕШАТЬ
 */
 
 public class Solution {
     public static void main(String[] args) throws Exception {
         String[] cats = new String[]{"васька", "мурка", "дымка", "рыжик", "серый", "снежок", "босс", "борис", "визя", "гарфи"};
 
-        //HashMap<String, Cat> map = addCatsToMap(cats);
+
+       // HashMap<String, Cat> map = addCatsToMap(cats);
 
         //for (Map.Entry<String, Cat> pair : map.entrySet()) {
-          //  System.out.println(pair.getKey() + " - " + pair.getValue());
+         //   System.out.println(pair.getKey() + " - " + pair.getValue());
         //}
     }
 
 
-//    public static HashMap<String, Cat> addCatsToMap(String[] cats) {
-        //Map<String, String> map = new HashMap<String, String>();
-        //catsMap.put(cats[i], new Cat(cats[i]));
-  //  }
+    //public static HashMap<String, Cat> addCatsToMap(String[] cats) {
+      //  Map<String, Cat> catsMap = new HashMap<String, Cat>();
+    // }
 
 
     public static class Cat {

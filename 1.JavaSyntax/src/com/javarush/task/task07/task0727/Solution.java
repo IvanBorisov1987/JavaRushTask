@@ -46,8 +46,4 @@ public class Solution {
         return list;
     }
 
-    public static ArrayList<String> tripleValues(ArrayList<String> list) {
-
-
-    }
 }
