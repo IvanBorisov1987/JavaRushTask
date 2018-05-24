@@ -20,6 +20,7 @@ public class Solution {
     }
 
     public static void removeAllSummerPeople(HashMap<String, Date> map) {
+
         Collection<Integer> removeCandidates = new LinkedList<>();
 
         Calendar myCal = new GregorianCalendar();
@@ -38,20 +39,3 @@ public class Solution {
 
     }
 }
-
-/*
-
-
-        //напишите тут ваш код
-    }
-
-    public static void removeAllSummerPeople(HashMap<String, Date> map) {
-        //напишите тут ваш код
-
-    }
-
-    public static void main(String[] args) {
-
-    }
-}
-* */
