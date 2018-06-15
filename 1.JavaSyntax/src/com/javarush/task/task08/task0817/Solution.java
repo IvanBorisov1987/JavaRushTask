@@ -43,3 +43,4 @@ public class Solution {
 5. Метод removeTheFirstNameDuplicates() должен удалять из словаря всех людей, имеющие одинаковые имена.
 6. Метод removeTheFirstNameDuplicates() должен вызывать метод removeItemFromMapByValue().
 */
+
