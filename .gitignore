@@ -1,9 +1,7 @@
 /JavaRushPlugin.properties
-/out.log
 *.log
 *.properties
-/out.log.1
-/.out
-/.idea
-/out
-/1.JavaSyntax/src/com/javarush/task/task07/task0710/Solution.java
+out.log.1
+.out
+.idea
+out
