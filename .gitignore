@@ -1,1 +1,5 @@
 /JavaRushPlugin.properties
+*.iml
+*.log
+*.info
+out
